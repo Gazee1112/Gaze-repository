@@ -1,2 +1,2 @@
 # Gaze-Ngulik-KelasTerbuka
-Ngulik OOP Kelas Terbuka
+Ngulik Pemrogrman JAVA OOP Kelas Terbuka
