@@ -87,10 +87,12 @@ public class Main {
         // Membuat object player
         Player player1 = new Player("ucup",100);
         Player player2 = new Player("otong",50);
+        Player player3 = new Player("Tejo",200);
 
         // membuat object weapon
         Weapon pedang = new Weapon("pedang",15);
         Weapon ketapel = new Weapon("ketapel",1);
+        Weapon pistol = new Weapon("pistol",20);
 
         // membuat object armor
         Armor bajuBesi = new Armor("baju besi", 10);
@@ -105,6 +107,11 @@ public class Main {
         player2.equipWeapon(ketapel);
         player2.equipArmor(kaos);
         player2.display();
+        
+        // Player 3
+        player3.equipWeapon(pistol);
+        player2.equipArmor(bajuBesi);
+        player3.display();
 
         System.out.println("\nPERTEMPURAN");
         System.out.println("\nEpisode - 1\n");
